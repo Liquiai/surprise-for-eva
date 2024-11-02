@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сюрпризик</title>
+    <link rel="stylesheet" href="eva.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Выбери ка!</h1>
+        <select id="cardType">
+            <option value="">--А ну попробуй--</option>
+            <option value="love">Ты?</option>
+            <option value="friendship">Я?</option>
+            <option value="birthday">МЫ?</option>
+        </select>
+        <button id="createCard">РАБОТАЕМ 8></button>
+        <div id="card" class="card" style="display: none;">
+            <iframe id="cardVideo" width="400" height="300" style="display: none;" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <script src="eva.js"></script>
+</body>
+</html>
